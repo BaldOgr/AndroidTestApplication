@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/num1"
+            android:layout_width="@dimen/stylecomponents.button.round.small.size"
+            android:layout_height="@dimen/stylecomponents.button.round.small.size"
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/num2"
+            android:layout_width="@dimen/stylecomponents.button.round.small.size"
+            android:layout_height="@dimen/stylecomponents.button.round.small.size"
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/num3"
+            android:layout_width="@dimen/stylecomponents.button.round.small.size"
+            android:layout_height="@dimen/stylecomponents.button.round.small.size"
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/num4"
+            android:layout_width="@dimen/stylecomponents.button.round.small.size"
+            android:layout_height="@dimen/stylecomponents.button.round.small.size"
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/num5"
+            android:layout_width="@dimen/stylecomponents.button.round.small.size"
+            android:layout_height="@dimen/stylecomponents.button.round.small.size"
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/num6"
+            android:layout_width="@dimen/stylecomponents.button.round.small.size"
+            android:layout_height="@dimen/stylecomponents.button.round.small.size"
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/num7"
+            android:layout_width="@dimen/stylecomponents.button.round.small.size"
+            android:layout_height="@dimen/stylecomponents.button.round.small.size"
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/num8"
+            android:layout_width="@dimen/stylecomponents.button.round.small.size"
+            android:layout_height="@dimen/stylecomponents.button.round.small.size"
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/num9"
+            android:layout_width="@dimen/stylecomponents.button.round.small.size"
+            android:layout_height="@dimen/stylecomponents.button.round.small.size"
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:text="9" />
+
+
+
+        <FrameLayout
+            android:layout_width="@dimen/stylecomponents.button.round.small.size"
+            android:layout_height="@dimen/stylecomponents.button.round.small.size"
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="@dimen/stylecomponents.button.round.small.size"
+                android:layout_height="@dimen/stylecomponents.button.round.small.size" />
+
+            <ImageView
+                android:id="@+id/finger"
+                android:clickable="true"
+                android:layout_width="@dimen/stylecomponents.button.round.img.size"
+                android:layout_height="@dimen/stylecomponents.button.round.img.size"
+                android:layout_gravity="center"
+                android:textAlignment="center" />
+        </FrameLayout>
+
+
+        <Button
+            android:id="@+id/num0"
+            android:layout_width="@dimen/stylecomponents.button.round.small.size"
+            android:layout_height="@dimen/stylecomponents.button.round.small.size"
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:text="0" />
+
+        <FrameLayout
+            android:layout_marginTop="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginBottom="@dimen/stylecomponents.button.round.margin.vertical"
+            android:layout_marginLeft="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_marginRight="@dimen/stylecomponents.button.round.margin.horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/backspace"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="@dimen/stylecomponents.button.round.small.size"
+                android:layout_height="@dimen/stylecomponents.button.round.small.size" />
+
+        </FrameLayout>
+    </GridLayout>
+
+        <Button
+            android:id="@+id/signIn"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Login"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</LinearLayout>

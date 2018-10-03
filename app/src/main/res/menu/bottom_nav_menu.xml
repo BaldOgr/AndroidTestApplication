@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_wallet"
+        android:icon="@drawable/grey_dot"
+        android:title="Wallet"/>
+    <item
+        android:id="@+id/action_history"
+        android:icon="@drawable/grey_dot"
+        android:title="History" />
+    <item
+        android:id="@+id/action_payment"
+        android:icon="@drawable/grey_dot"
+        android:title="Payment_history" />
+    <item
+        android:id="@+id/action_cards"
+        android:icon="@drawable/grey_dot"
+        android:title="Cards" />
+</menu>

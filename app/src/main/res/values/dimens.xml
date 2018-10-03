@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stylecomponents.margin.small.top">16dp</dimen>
+    <dimen name="stylecomponents.dimen.large">16dp</dimen>
+    <dimen name="stylecomponents.margin.xxlarge.top">32dp</dimen>
+    <dimen name="stylecomponents.dimen.medium">8dp</dimen>
+    <dimen name="stylecomponents.button.round.small.size">8dp</dimen>
+    <dimen name="stylecomponents.button.round.margin.vertical">8dp</dimen>
+    <dimen name="stylecomponents.button.round.margin.horizontal">8dp</dimen>
+    <dimen name="stylecomponents.button.round.img.size">8dp</dimen>
+</resources>
